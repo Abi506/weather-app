@@ -65,6 +65,7 @@ const Weather = () => {
     console.log(weatherData)
 
   return (
+    <div className='main-weather-container'>
     <div className='weather-container'>
         {weatherData&&(
             <>
@@ -98,6 +99,7 @@ const Weather = () => {
         </div>
         </>
         )}
+    </div>
     </div>
   )
 }

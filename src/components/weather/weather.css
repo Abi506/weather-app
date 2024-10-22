@@ -1,6 +1,11 @@
+.main-weather-container{
+    border:2px solid lightblue;
+    border-radius: 8px;
+    padding: 10px;
+}
 .weather-container {
     background: linear-gradient(to bottom,darkblue, blue);
-    padding:20px;
+    padding:25px;
     border-radius: 4px;
 }
 .search-container{

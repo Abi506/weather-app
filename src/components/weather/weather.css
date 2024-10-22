@@ -1,0 +1,62 @@
+.weather-container {
+    background: linear-gradient(to bottom,darkblue, blue);
+    padding:20px;
+    border-radius: 4px;
+}
+.search-container{
+    padding:10px;
+    border-radius: 18px;
+    border:0px;
+}
+.search-button{
+    border-radius: 20px;
+    padding:5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+}
+.sun-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.sun{
+    color:gold;
+    font-size: 60px;
+}
+.temperatur-city-container{
+    text-align: center;
+    color: white;
+}
+.temperature{
+    font-size: 40px;
+    font-weight: 500;
+}
+.humidity-wind-container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.humidity-container{
+    display: flex;
+    flex-direction: row;
+}
+.wind-container{
+    display: flex;
+    flex-direction: row;
+}
+.common-icon{
+    align-self: center;
+    margin-right: 10px;
+}
+.humidity-text{
+    margin-top: 0px;
+    margin-left: 12px;
+}
+.wind-text{
+    margin-top: 0px;
+    margin-left: 12px;
+}

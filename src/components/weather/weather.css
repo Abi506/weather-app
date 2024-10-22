@@ -7,7 +7,7 @@
 .weather-container {
     background: linear-gradient(to bottom,darkblue, blue);
     padding:25px;
-    height: 80vh;
+    height: 70vh;
     border-radius: 4px;
 }
 .search-container{

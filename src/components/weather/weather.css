@@ -2,10 +2,12 @@
     border:2px solid lightblue;
     border-radius: 8px;
     padding: 10px;
+    background-color: aqua;
 }
 .weather-container {
     background: linear-gradient(to bottom,darkblue, blue);
     padding:25px;
+    height: 80vh;
     border-radius: 4px;
 }
 .search-container{
@@ -28,8 +30,7 @@
     height: 100px;
 }
 .sun{
-    color:gold;
-    font-size: 60px;
+    width: 100px;
 }
 .temperatur-city-container{
     text-align: center;
